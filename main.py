@@ -3,7 +3,7 @@ from aiogram.utils import executor
 from random import randint
 import os
 
-TOKEN = os.getenv("8266023377:AAHr4maCljTr1CXp5HE2LTIN2j7rXKdnmNU")
+TOKEN = "8266023377:AAHr4maCljTr1CXp5HE2LTIN2j7rXKdnmNU"
 
 bot = Bot(TOKEN)
 dp = Dispatcher(bot)
