@@ -3,7 +3,7 @@ from aiogram.utils import executor
 from random import randint
 import os
 
-TOKEN = os.getenv(8266023377:AAHr4maCljTr1CXp5HE2LTIN2j7rXKdnmNU)
+TOKEN = os.getenv("8266023377:AAHr4maCljTr1CXp5HE2LTIN2j7rXKdnmNU")
 
 bot = Bot(TOKEN)
 dp = Dispatcher(bot)
@@ -20,4 +20,6 @@ async def credits(message: types.Message):
 
 
 if __name__ == "__main__":
-    executor.start_polling(dp, skip_updates=True)  
+    executor.start_polling(dp, skip_updates=True) 
+
+print("TOKEN:", TOKEN)
